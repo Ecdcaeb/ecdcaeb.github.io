@@ -1,0 +1,39 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.latvian",
+    "module": "kubejs",
+    "version": "forge-1.12.2-1.1.0.63",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "4.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "reobfElements",
+      "attributes": {
+        "com.gtnewhorizons.retrofuturagradle.obfuscation": "srg",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kubejs-forge-1.12.2-1.1.0.63.jar",
+          "url": "kubejs-forge-1.12.2-1.1.0.63.jar",
+          "size": 317299,
+          "sha512": "d2c8476543be0b5fc5cba8efc8a88818f64c70d3927cfa3062ebd8970e78d2861478ebb033c74ec82f700e00d9e0938445dfa736d22a2904999490360b702ad0",
+          "sha256": "144866d793ec740be201f6a493c13ccc51d68b22139298f37d7fae4f7e03b149",
+          "sha1": "f56caab56466c0a73cd1d9f0d64a8b466fa4db83",
+          "md5": "9c5a9192e166ca317c272367bf78992f"
+        }
+      ]
+    }
+  ]
+}
