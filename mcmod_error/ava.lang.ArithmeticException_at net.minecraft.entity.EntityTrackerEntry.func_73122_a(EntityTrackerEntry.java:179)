@@ -1,0 +1,15 @@
+Description: Exception in server tick loop
+
+java.lang.ArithmeticException: / by zero
+	at net.minecraft.entity.EntityTrackerEntry.func_73122_a(EntityTrackerEntry.java:179)
+	at net.minecraft.entity.EntityTracker.func_72788_a(EntityTracker.java:292)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:779)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:185)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+
+Fix :
+ register the entity with tracker.
