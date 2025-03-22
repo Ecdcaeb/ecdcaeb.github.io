@@ -3,7 +3,7 @@
   "component": {
     "group": "net.minecraftforge.gradle",
     "module": "ForgeGradle",
-    "version": "6.10.47",
+    "version": "6.10.43",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "ForgeGradle-6.10.47.jar",
-          "url": "ForgeGradle-6.10.47.jar",
-          "size": 490951,
-          "sha512": "dde11895491ba98df8d0bbe1f1b5eeefeda6d8c59668c52d2f49ac6dcf5e9afeb444da986d55193742b7b1cab6d12275bdb8ea1b8789907797d18411880dba4b",
-          "sha256": "ce867c557371d65fc445e9b22efe6f61d714133b4436db8d24090f45a27a1fc1",
-          "sha1": "c6dce16c71111d7055e26e84acc38e0d7ac7d9f3",
-          "md5": "2d285592d2d6eee1b1bbcbc475ad77ad"
+          "name": "ForgeGradle-6.10.43.jar",
+          "url": "ForgeGradle-6.10.43.jar",
+          "size": 490904,
+          "sha512": "500d31f4256760febe436a23f9d2ce91704506d0828b3be8db1c2829f4c4fc2a28fe7a8520bd36deda63171a17ed72f3aeb3ffac17430c8c6155b56e656e066f",
+          "sha256": "bea991097b236def3c80fb1b083f364abe639930f91686375083ea0aad7dd5d8",
+          "sha1": "b9ff6bc802425b83b6cfdba5c282f199e4d71be6",
+          "md5": "5f036a2576b0a415b043e22e94811e41"
         }
       ]
     },
@@ -212,13 +212,13 @@
       ],
       "files": [
         {
-          "name": "ForgeGradle-6.10.47.jar",
-          "url": "ForgeGradle-6.10.47.jar",
-          "size": 490951,
-          "sha512": "dde11895491ba98df8d0bbe1f1b5eeefeda6d8c59668c52d2f49ac6dcf5e9afeb444da986d55193742b7b1cab6d12275bdb8ea1b8789907797d18411880dba4b",
-          "sha256": "ce867c557371d65fc445e9b22efe6f61d714133b4436db8d24090f45a27a1fc1",
-          "sha1": "c6dce16c71111d7055e26e84acc38e0d7ac7d9f3",
-          "md5": "2d285592d2d6eee1b1bbcbc475ad77ad"
+          "name": "ForgeGradle-6.10.43.jar",
+          "url": "ForgeGradle-6.10.43.jar",
+          "size": 490904,
+          "sha512": "500d31f4256760febe436a23f9d2ce91704506d0828b3be8db1c2829f4c4fc2a28fe7a8520bd36deda63171a17ed72f3aeb3ffac17430c8c6155b56e656e066f",
+          "sha256": "bea991097b236def3c80fb1b083f364abe639930f91686375083ea0aad7dd5d8",
+          "sha1": "b9ff6bc802425b83b6cfdba5c282f199e4d71be6",
+          "md5": "5f036a2576b0a415b043e22e94811e41"
         }
       ]
     },
@@ -232,13 +232,13 @@
       },
       "files": [
         {
-          "name": "ForgeGradle-6.10.47-sources.jar",
-          "url": "ForgeGradle-6.10.47-sources.jar",
-          "size": 213849,
-          "sha512": "5820a2d6df4d688ca9d076d5a6d84895bd7666481cd3b4b03b97433608837b916008138460dca46b9e7fdb58a92305ed522d8cc00652c0c2eb69c07590a77edb",
-          "sha256": "60b73be55499ad074d6deff5a61d8718cb8af18a708444f2e8addedd7e3cc219",
-          "sha1": "daadde3ebcb0fbb94a5d0ca088778979f2210bd4",
-          "md5": "46cfd053cfa04bf9a601e6da04598fe9"
+          "name": "ForgeGradle-6.10.43-sources.jar",
+          "url": "ForgeGradle-6.10.43-sources.jar",
+          "size": 213828,
+          "sha512": "00ef4dd2216d62cec5a55fc627fec5a9b686791a3b72c8d6aff2978cfce90e3c4d25502c7d87e0458bd258c5cd71ce1661992bbdb3f72f8fdb62e71d08c63e09",
+          "sha256": "535400909cc86aa9be8acfd63085c9e9b2bae45003708b0f8a1a7f28caaa2f67",
+          "sha1": "894005dc068dc294630d90e17cea17232ea7bde4",
+          "md5": "89b0d475e06f215026baa03de6b3095c"
         }
       ]
     }

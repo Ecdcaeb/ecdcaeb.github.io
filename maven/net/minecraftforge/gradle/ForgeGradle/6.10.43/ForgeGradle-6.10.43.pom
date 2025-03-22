@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.minecraftforge.gradle</groupId>
   <artifactId>ForgeGradle</artifactId>
-  <version>6.10.47</version>
+  <version>6.10.43</version>
   <dependencies>
     <dependency>
       <groupId>commons-io</groupId>
