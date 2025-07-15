@@ -27,11 +27,11 @@
         {
           "name": "ASMImplementPlugin-0.1.2.jar",
           "url": "ASMImplementPlugin-0.1.2.jar",
-          "size": 265017,
-          "sha512": "6802441504cc94cf97482167de6b3398ea07e785906bea70012d11609618529077d103ea3f38546db9c292627653794ef0df236a5b03257911d3cdd4c605dac6",
-          "sha256": "5f7725feea53f6917d151168f121387e5e625b93e37837ae19f69c33a149f1a8",
-          "sha1": "a33f64c0ecdf246ce87aeba9980cc804e96ce6e6",
-          "md5": "cd25f5830e91d56c3c771b74ac049df5"
+          "size": 265497,
+          "sha512": "e8e7a138fa4e4ad9aefb897de52bc15b909a634059b759a47d9cfe0bb7c23f2aed348c2f323926f652186327af259796b5cfb0bc08084fbce21abe46a6bec69b",
+          "sha256": "06c5b1ac87b1d57d1909ac7ac86c199b2bd2897f32bcb12001e31935e29b6d07",
+          "sha1": "9fbfd173e9a9fd5c734e37f63333caab1f10d4cc",
+          "md5": "0289d505421a05a89dce9578ac990baf"
         }
       ]
     },
@@ -78,11 +78,11 @@
         {
           "name": "ASMImplementPlugin-0.1.2.jar",
           "url": "ASMImplementPlugin-0.1.2.jar",
-          "size": 265017,
-          "sha512": "6802441504cc94cf97482167de6b3398ea07e785906bea70012d11609618529077d103ea3f38546db9c292627653794ef0df236a5b03257911d3cdd4c605dac6",
-          "sha256": "5f7725feea53f6917d151168f121387e5e625b93e37837ae19f69c33a149f1a8",
-          "sha1": "a33f64c0ecdf246ce87aeba9980cc804e96ce6e6",
-          "md5": "cd25f5830e91d56c3c771b74ac049df5"
+          "size": 265497,
+          "sha512": "e8e7a138fa4e4ad9aefb897de52bc15b909a634059b759a47d9cfe0bb7c23f2aed348c2f323926f652186327af259796b5cfb0bc08084fbce21abe46a6bec69b",
+          "sha256": "06c5b1ac87b1d57d1909ac7ac86c199b2bd2897f32bcb12001e31935e29b6d07",
+          "sha1": "9fbfd173e9a9fd5c734e37f63333caab1f10d4cc",
+          "md5": "0289d505421a05a89dce9578ac990baf"
         }
       ]
     },
@@ -98,11 +98,11 @@
         {
           "name": "ASMImplementPlugin-0.1.2.jar",
           "url": "ASMImplementPlugin-0.1.2.jar",
-          "size": 265017,
-          "sha512": "6802441504cc94cf97482167de6b3398ea07e785906bea70012d11609618529077d103ea3f38546db9c292627653794ef0df236a5b03257911d3cdd4c605dac6",
-          "sha256": "5f7725feea53f6917d151168f121387e5e625b93e37837ae19f69c33a149f1a8",
-          "sha1": "a33f64c0ecdf246ce87aeba9980cc804e96ce6e6",
-          "md5": "cd25f5830e91d56c3c771b74ac049df5"
+          "size": 265497,
+          "sha512": "e8e7a138fa4e4ad9aefb897de52bc15b909a634059b759a47d9cfe0bb7c23f2aed348c2f323926f652186327af259796b5cfb0bc08084fbce21abe46a6bec69b",
+          "sha256": "06c5b1ac87b1d57d1909ac7ac86c199b2bd2897f32bcb12001e31935e29b6d07",
+          "sha1": "9fbfd173e9a9fd5c734e37f63333caab1f10d4cc",
+          "md5": "0289d505421a05a89dce9578ac990baf"
         }
       ]
     }

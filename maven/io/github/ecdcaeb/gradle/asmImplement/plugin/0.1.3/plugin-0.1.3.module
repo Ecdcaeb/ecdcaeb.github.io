@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.ecdcaeb.gradle.asmImplement",
+    "module": "plugin",
+    "version": "0.1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "plugin-0.1.3.jar",
+          "url": "plugin-0.1.3.jar",
+          "size": 265497,
+          "sha512": "e4478e88a70127182bc4392c8350196328a5923d67afbf89357ad7d88541eaafed735a94648b8eaf3d256e41821a5fa1b58f7820e88681bec3bcc2e2aa7c07f7",
+          "sha256": "b077b61721dae8afe2685c12b5e91bcd260968e1b4e96bd7e329684ffc950d5e",
+          "sha1": "d22a200b68e451203d9e8a9650c889b4d3ec56ad",
+          "md5": "1bcdf7240c52d18aa50d525854c7f87c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.ecdcaeb.gradle.asmImplement",
+          "module": "ASMImplementAPI",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-0.1.3.jar",
+          "url": "plugin-0.1.3.jar",
+          "size": 265497,
+          "sha512": "e4478e88a70127182bc4392c8350196328a5923d67afbf89357ad7d88541eaafed735a94648b8eaf3d256e41821a5fa1b58f7820e88681bec3bcc2e2aa7c07f7",
+          "sha256": "b077b61721dae8afe2685c12b5e91bcd260968e1b4e96bd7e329684ffc950d5e",
+          "sha1": "d22a200b68e451203d9e8a9650c889b4d3ec56ad",
+          "md5": "1bcdf7240c52d18aa50d525854c7f87c"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "plugin-0.1.3.jar",
+          "url": "plugin-0.1.3.jar",
+          "size": 265497,
+          "sha512": "e4478e88a70127182bc4392c8350196328a5923d67afbf89357ad7d88541eaafed735a94648b8eaf3d256e41821a5fa1b58f7820e88681bec3bcc2e2aa7c07f7",
+          "sha256": "b077b61721dae8afe2685c12b5e91bcd260968e1b4e96bd7e329684ffc950d5e",
+          "sha1": "d22a200b68e451203d9e8a9650c889b4d3ec56ad",
+          "md5": "1bcdf7240c52d18aa50d525854c7f87c"
+        }
+      ]
+    }
+  ]
+}
