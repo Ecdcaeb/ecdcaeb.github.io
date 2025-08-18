@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.ecdcaeb.gradle.asmimplement",
+    "module": "ASMImplementPlugin",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ASMImplementPlugin-0.1.4.jar",
+          "url": "ASMImplementPlugin-0.1.4.jar",
+          "size": 258478,
+          "sha512": "90b1966bccaeec4b50e04a596346275733191eb96f3e548416d0a2948fb51943f7969a719cca68074e41e0aa4a4372dd3fec5a74f717f3126d1f1f3fa0a6849b",
+          "sha256": "7a6052a798f64d94bba9b02b6b9500919969e76bca731f7209ecb7431ca9d694",
+          "sha1": "9963bbf73f2c3c201bc1c977e8e9305cfd9a0187",
+          "md5": "bf02e2c6cf8d60b72f72386f8c8eb83c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.ecdcaeb.gradle.asmimplement",
+          "module": "api",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ASMImplementPlugin-0.1.4.jar",
+          "url": "ASMImplementPlugin-0.1.4.jar",
+          "size": 258478,
+          "sha512": "90b1966bccaeec4b50e04a596346275733191eb96f3e548416d0a2948fb51943f7969a719cca68074e41e0aa4a4372dd3fec5a74f717f3126d1f1f3fa0a6849b",
+          "sha256": "7a6052a798f64d94bba9b02b6b9500919969e76bca731f7209ecb7431ca9d694",
+          "sha1": "9963bbf73f2c3c201bc1c977e8e9305cfd9a0187",
+          "md5": "bf02e2c6cf8d60b72f72386f8c8eb83c"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ASMImplementPlugin-0.1.4.jar",
+          "url": "ASMImplementPlugin-0.1.4.jar",
+          "size": 258478,
+          "sha512": "90b1966bccaeec4b50e04a596346275733191eb96f3e548416d0a2948fb51943f7969a719cca68074e41e0aa4a4372dd3fec5a74f717f3126d1f1f3fa0a6849b",
+          "sha256": "7a6052a798f64d94bba9b02b6b9500919969e76bca731f7209ecb7431ca9d694",
+          "sha1": "9963bbf73f2c3c201bc1c977e8e9305cfd9a0187",
+          "md5": "bf02e2c6cf8d60b72f72386f8c8eb83c"
+        }
+      ]
+    }
+  ]
+}

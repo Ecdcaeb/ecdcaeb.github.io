@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>io.github.ecdcaeb.gradle.asmimplement</groupId>
-  <artifactId>io.github.ecdcaeb.gradle.asmimplement.gradle.plugin</artifactId>
+  <artifactId>api</artifactId>
   <versioning>
     <latest>0.1.4</latest>
     <release>0.1.4</release>
     <versions>
       <version>0.1.4</version>
     </versions>
-    <lastUpdated>20250818060954</lastUpdated>
+    <lastUpdated>20250818060934</lastUpdated>
   </versioning>
 </metadata>

@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.ecdcaeb.gradle.asmimplement",
+    "module": "api",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "api-0.1.4.jar",
+          "url": "api-0.1.4.jar",
+          "size": 249794,
+          "sha512": "aed42d80c51ebdca8d6d6629592f4065b9de2c473e28ba24eaa0a721441a29177b3dae8e82b0ba289bd292c7cd04246783ccdb36b71cc5dce6a155211c59bb16",
+          "sha256": "1f9bcc0f51ab91e357f65453a22dae707531cffe29f781f4dbbe4b6fbea57c31",
+          "sha1": "c6aa0ba0589c6997d3b061885303649c2aef8413",
+          "md5": "0226e6bae426700df0234d36b945af42"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-0.1.4.jar",
+          "url": "api-0.1.4.jar",
+          "size": 249794,
+          "sha512": "aed42d80c51ebdca8d6d6629592f4065b9de2c473e28ba24eaa0a721441a29177b3dae8e82b0ba289bd292c7cd04246783ccdb36b71cc5dce6a155211c59bb16",
+          "sha256": "1f9bcc0f51ab91e357f65453a22dae707531cffe29f781f4dbbe4b6fbea57c31",
+          "sha1": "c6aa0ba0589c6997d3b061885303649c2aef8413",
+          "md5": "0226e6bae426700df0234d36b945af42"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "api-0.1.4.jar",
+          "url": "api-0.1.4.jar",
+          "size": 249794,
+          "sha512": "aed42d80c51ebdca8d6d6629592f4065b9de2c473e28ba24eaa0a721441a29177b3dae8e82b0ba289bd292c7cd04246783ccdb36b71cc5dce6a155211c59bb16",
+          "sha256": "1f9bcc0f51ab91e357f65453a22dae707531cffe29f781f4dbbe4b6fbea57c31",
+          "sha1": "c6aa0ba0589c6997d3b061885303649c2aef8413",
+          "md5": "0226e6bae426700df0234d36b945af42"
+        }
+      ]
+    }
+  ]
+}
